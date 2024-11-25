@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-# import streamlit_authenticator as stauth
+import streamlit_authenticator as stauth
 
 # ユーザ設定の.yamlファイルを読込んで認証情報を取得する
 
