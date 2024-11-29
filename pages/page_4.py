@@ -2,6 +2,9 @@ import streamlit as st
 from PIL import Image
 import pandas as pd
 import matplotlib.pyplot as plt
+import common
+
+common.check_login()
 
 df_dset = st.session_state.dashbord_usersetting
 

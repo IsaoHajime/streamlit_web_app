@@ -1,5 +1,8 @@
 import streamlit as st
 from PIL import Image
+import common
+
+common.check_login()
 
 df_dset = st.session_state.dashbord_usersetting
 #変数型が微妙に違うのだか。。
