@@ -26,7 +26,7 @@ if  str(df_dset.iloc[0,7]) == "True":
         st.area_chart(chart_data)
     else:
         # 画像
-        image = Image.open('data/pose_yubisashi_kakunin_sagyouin_man.PNG')
+        image = Image.open('./data/pose_yubisashi_kakunin_sagyouin_man.png')
         st.image(image, width=200)
         st.text('申し訳けありません、いまの権限ではグラフ表示ができません。\n'
                 '')
@@ -38,7 +38,7 @@ if  str(df_dset.iloc[0,7]) == "True":
         st.scatter_chart(chart_data)
     else:
         # 画像
-        image = Image.open('data/pose_yubisashi_kakunin_sagyouin_man.PNG')
+        image = Image.open('./data/pose_yubisashi_kakunin_sagyouin_man.png')
         st.image(image, width=200)
         st.text('申し訳けありません、いまの権限ではグラフ表示ができません。\n'
                 '')
@@ -49,13 +49,13 @@ if  str(df_dset.iloc[0,7]) == "True":
         st.line_chart(line_chart_data, x="col1", y="col2", color="col3")
     else:
         # 画像
-        image = Image.open('data/pose_yubisashi_kakunin_sagyouin_man.PNG')
+        image = Image.open('./data/pose_yubisashi_kakunin_sagyouin_man.png')
         st.image(image, width=200)
         st.text('申し訳けありません、いまの権限ではグラフ表示ができません。\n'
                 '')
 else:
     # 画像
-    image = Image.open('data/pose_yubisashi_kakunin_sagyouin_man.PNG')
+    image = Image.open('./data/pose_yubisashi_kakunin_sagyouin_man.png')
     st.image(image, width=200)
     st.text('申し訳けありません、いまの権限ではグラフ表示ができません。\n'
             '設定値の確認をおねがいます。')
