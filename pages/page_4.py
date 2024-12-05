@@ -30,7 +30,7 @@ if  str(df_dset.iloc[0,6]) == "True":
         st.pyplot(fig)
 else:
     # 画像
-    image = Image.open('./data/pose_yubisashi_kakunin_sagyouin_man.PNG')
+    image = Image.open('data/pose_yubisashi_kakunin_sagyouin_man.PNG')
     st.image(image, width=200)
     st.text('申し訳けありません、いまの権限ではグラフ表示ができません。\n'
             '設定値の確認をおねがいます。')
